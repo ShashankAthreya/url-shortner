@@ -15,7 +15,7 @@ _You can setup the entire project through simple cli commands. Just open your te
   ```sh
   source env/bin/activate
   ```
-4. Install the required python packages and ru flask
+4. Install the required python packages and run flask
   ```sh
   bash start.sh
   ```
