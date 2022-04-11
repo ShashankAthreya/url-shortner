@@ -20,3 +20,6 @@ _You can setup the entire project through simple cli commands. Just open your te
   bash start.sh
   ```
 _NOTE: This starts flask with an IP accessible for all. To change that, go to start.sh and edit line 4 to 'flask run'_
+
+#### Acknowledgement
+Abdelhadi Dyouri for his article on [How To Make a URL Shortener with Flask and SQLite](https://www.digitalocean.com/community/tutorials/how-to-make-a-url-shortener-with-flask-and-sqlite)
