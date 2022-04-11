@@ -11,7 +11,7 @@ def get_db_connection():
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'this should be a secret random string'
 
-hashids = Hashids(min_length=4, salt=app.config['SECRET_KEY'])
+hashids = Hashids(min_length=6, salt=app.config['SECRET_KEY'])
 
 @app.route('/', methods=('GET', 'POST'))
 def index():
